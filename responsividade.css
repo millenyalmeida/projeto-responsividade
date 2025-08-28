@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@media screen and (max-width:580px){
+    body{
+        font-size: 14px;
+    }    
+
+    header > h1{
+        font-size: 1.8rem;
+
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 19px;
+    }
+
+    #video1{
+        width: 100%;
+        
+    }
+
+    #video2{
+        width: 100%;
+        
+    }
+
+}
+
+@media  screen and (min-width: 581px) and (max-width:1024px){
+    body{
+        font-size: 16px;
+    }    
+
+    header > h1{
+        font-size: 2.2rem;
+
+    }
+
+    h2{
+        font-size: 1.6rem;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    #video1{
+        width: 100%;
+        
+    }
+
+    #video2{
+        width: 100%;
+        
+    }
+    
+}

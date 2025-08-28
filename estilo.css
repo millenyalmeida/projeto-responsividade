@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+/*fontes*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+
+    --cor-texto: #1d1d1d; /* cinza escuro para texto */
+    --cor-header:#ffd9b3a2;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+   
+background: linear-gradient(45deg, 
+    #ffcccc,  /* vermelho claro */
+    #ffd9b3,  /* laranja claro */
+    #fff9b3,  /* amarelo claro */
+    #ccffcc,  /* verde claro */
+    #cce0ff,  /* azul claro */
+    #e0ccff   /* roxo claro */
+  );
+
+  color: var(--cor-texto);
+  
+
+
+}
+
+header > h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color:var(--cor-header) ;
+    padding: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 550;
+    color: var(--cor-texto);
+}
+
+p{
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 10px 0;
+    color:var(--cor-texto);
+}
+
+div{
+    margin: 20px;
+    padding: 15px;
+}
+
+
+
+ footer{
+    text-align: center;
+    padding: 10px;
+    background: white;
+    color:var(--cor-texto);
+
+ }
+
+#video1, #video2{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 20px;
+ } 
+
+
+ .tabela-estatisticas {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1d1d1d;
+}
+
+.tabela-estatisticas h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tabela-estatisticas table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.tabela-estatisticas th, 
+.tabela-estatisticas td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.tabela-estatisticas th {
+  background:var(--cor-header);
+  color: #1d1d1d;
+}
+
+.tabela-estatisticas tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tabela-estatisticas tr:hover {
+  background-color: #ffe6ea; /* efeito hover leve */
+}
+
+a{
+    color: #959799;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #ff6666;
+}
+
+
+
+
+
+
