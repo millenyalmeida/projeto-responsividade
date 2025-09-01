@@ -28,6 +28,10 @@
         
     }
 
+    h3{
+        font-size: 1.2rem;
+    }
+
 }
 
 @media  screen and (min-width: 581px) and (max-width:1024px){
@@ -57,5 +61,10 @@
         width: 100%;
         
     }
-    
+
+    h3{
+        
+        font-size: 1.3rem;
+    }
+
 }
