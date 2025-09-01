@@ -141,6 +141,15 @@ a:hover{
     color: #ff6666;
 }
 
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 550;
+    color: var(--cor-texto);
+    margin-top: 15px;
+}
+
+
 
 
 
